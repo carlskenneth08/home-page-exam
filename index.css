@@ -1,0 +1,90 @@
+html, body {
+    font-family: 'Indie Flower', cursive !important;
+}
+
+.navbar .navbar-brand {
+    font-weight: 1000;
+    color: rgb(255, 208, 0);
+    font-size: 30px;
+}
+
+.navbar .nav-bar {
+    background-color: rgb(21, 105, 105);
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+#nav-links a:hover {
+    color: #ff9800; /* Change link color on hover */
+}
+
+#hero {
+    font-family: 'Oleo Script';
+    height: 50vh; /* Full viewport height */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ff9800;
+    background: linear-gradient(
+                rgba(255, 255, 255, 0.1), 
+                rgba(200, 218, 41, 0.1)
+              ), 
+              url('./images/hero.jpeg') no-repeat center center/cover;
+    background-size: cover;
+    position: center;
+}
+
+/* Hero content styling */
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+}
+
+#promo-title {
+    font-weight: 1000;
+    color: #ec970e;
+}
+
+#featured {
+    font-weight: 1000;
+    color: #ec970e;
+}
+
+#footer {
+    background-color: rgb(21, 105, 105);
+}
+
+#promo li {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#promo-heading {
+    text-align: center;
+    font-size: 50px;
+}
+
+.card-body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card img {
+    height: 15rem;
+}
+
+#footer h4 {
+    font-size: 50px;
+}
